@@ -53,7 +53,7 @@ def user_report():
 #patient data
 user_data = user_report()
 st.subheader('Patient Data')
-st.write('user_data')
+st.write(user_data)
 
 #model
 rc = RandomForestClassifier()
